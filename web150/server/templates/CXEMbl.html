@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="" method="post">
+    <h3>Выбери позиции, на которые хочешь купон:</h3>
+    <br>
+    <p>
+        {{ form.cheeseburger(type="checkbox") }}
+        {{ form.cheeseburger.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.hamburger(type="checkbox") }}
+        {{ form.hamburger.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.shrimpburger(type="checkbox") }}
+        {{ form.shrimpburger.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.big_king(type="checkbox") }}
+        {{ form.big_king.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.roll(type="checkbox") }}
+        {{ form.roll.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.potato_fri(type="checkbox") }}
+        {{ form.potato_fri.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.potato_country(type="checkbox") }}
+        {{ form.potato_country.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.nuggets(type="checkbox") }}
+        {{ form.nuggets.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.chicken(type="checkbox") }}
+        {{ form.chicken.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.icecream(type="checkbox") }}
+        {{ form.icecream.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.coke(type="checkbox") }}
+        {{ form.coke.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.lipton(type="checkbox") }}
+        {{ form.lipton.label(class="form-check-label") }}
+    </p>
+    <p>
+        {{ form.mirinda(type="checkbox") }}
+        {{ form.mirinda.label(class="form-check-label") }}
+    </p>
+    <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
+</form>
+{% endblock %}
