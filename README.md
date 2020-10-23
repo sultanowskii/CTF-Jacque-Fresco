@@ -4,7 +4,7 @@
 
 В создании контеста принимали участие:
 - [Султанов Артур](https://github.com/sultanowskii) (идея, плафторма, задания)
-- [Талипов Ислам](https://github.com/sultanow) (задания)
+- [Талипов Ислам](https://github.com/lishy2) (задания)
 - Асадуллин Айдар (задания)
 
 ![Fresco's Quote](https://github.com/sultanowskii/CTF-Jacque-Fresco/blob/master/stego25/static/fresco.jpg?raw=true)
