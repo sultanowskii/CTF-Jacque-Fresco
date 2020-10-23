@@ -1,6 +1,6 @@
 from requests import get, post
 
-SERVER = "192.168.2.144:43100"
+SERVER = "SERVER:PORT"
 
 fields = ['cheeseburger', 'hamburger', 'shrimpburger', 'big_king', 'roll', 'potato_fri', 'potato_country', 'nuggets', 'chicken', 'icecream', 'coke', 'lipton', 'mirinda']
 

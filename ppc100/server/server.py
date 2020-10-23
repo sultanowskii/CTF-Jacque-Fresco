@@ -3,7 +3,7 @@ import random
 
 HOST, PORT = '0.0.0.0', 43100
 FLAG = "flag{d4d0_15_f41r_c4p1t4l15t}"
-TASKS_COUNT = 16
+TASKS_COUNT = 10
 SONGS = {"Ночное Рандеву": "крис кельми",
          "Immortals": "fall out boys",
          "Show must go on": "the queen|queen",
@@ -17,13 +17,13 @@ SONGS = {"Ночное Рандеву": "крис кельми",
          "The Final Countdown": "europe",
          "Slam (Angel Miners)": "awolnation",
          "Симфония огня": "ария|кипелов",
-         "Voyage Voyage": "desreless",
+         "Voyage Voyage": "desireless",
          "SAD!": "xxxtentacion",
          "Хабибуллин": "крематорий",
          "Сектор Газа": "сектор газа",
          "Хрустальный мир": "кукрыниксы",
          "EZ4ENCE": "the verkkars|verkkars",
-         "Take me to Church": "hoizer",
+         "Take me to Church": "hozier",
          "Way Down We Go": "kaleo",
          "Некрещеная луна": "7б",
          "Хару мамбуру": "ногу свело!|ногу свело",
@@ -138,9 +138,9 @@ class JacqueServer(asyncio.Protocol):
         if data == "да":
             self.generate_curr_question()
             self.transport.write(
-                bytes("вот название песни скажи название группы пж 15 секунд даю " + self.curr_question + "\n", encoding="utf-8"))
+                bytes("вот название песни скажи название группы пж  " + self.curr_question + "\n", encoding="utf-8"))
             self.state = 2
-            self.set_timer(15)
+            self.set_timer(240)
         elif data == "нет":
             self.transport.write(bytes("ок.\n", encoding="utf8"))
             self.transport.close()
