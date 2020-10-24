@@ -7,4 +7,19 @@
 - [Талипов Ислам](https://github.com/lishy2) (задания)
 - Асадуллин Айдар (задания)
 
-![Fresco's Quote](https://github.com/sultanowskii/CTF-Jacque-Fresco/blob/master/stego25/static/fresco.jpg?raw=true)
+## Рейтинг команд:
+
+| Название команды       | Счет |
+|------------------------|:----:|
+| Драники                |  875 |
+| Трансформаторная будка |  875 |
+| GG                     |  625 |
+| duck                   |  525 |
+| ComeZone               |  475 |
+| kukeilar               |  475 |
+| Cum(ILL)               |  425 |
+| NYA                    |  225 |
+| ArtiZone               |  175 |
+| LI2SUROVSHARYPOV       |  175 |
+| test349                |  75  |
+| Gimadeo                |  25  |
