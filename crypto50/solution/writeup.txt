@@ -1,1 +1,0 @@
-flag{jacque_fresco_and_his_python}

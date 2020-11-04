@@ -1,1 +1,0 @@
-flag{big_smoke}

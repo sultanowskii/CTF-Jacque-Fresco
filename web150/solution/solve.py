@@ -6,6 +6,7 @@ fields = ['cheeseburger', 'hamburger', 'shrimpburger', 'big_king', 'roll', 'pota
 
 values = ['n'] * 13
 
+
 def send(cntr):
     global values
     if cntr == 13:
@@ -13,7 +14,6 @@ def send(cntr):
         for i in range(0, 13):
             if values[i] == 'y':
                 params[fields[i]] = 'y'
-        print(values)
         d = post(f'http://{SERVER}/web150', data=params)
         print(d.content.decode("utf-8"))
         return
